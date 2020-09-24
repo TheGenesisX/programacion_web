@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contacto</title>
+  </head>
+  <body>
+    <a href="index.html">Inicio</a><hr>
+    <h1>Formulario de Contacto</h1>
+    <form action="contacto.html" method="post">
+
+      <label for="nombreContacto">Nombre: </label>
+      <input type="text" id="nombreContacto" name="nombreC" size="40">
+
+      <label for="correoContacto">Correo: </label>
+      <input type="email" id="correoContacto" name="correoC" size="40"><br><br>
+
+      <label for="carreraContacto">Carrera: </label>
+      <select id="carreraContacto" name="carreraC">
+        <option value="Informatica">Ing. en Informática</option>
+        <option value="Computacion">Ing. en Computación</option>
+      </select>
+
+      <label for="nacimientoContacto">Fecha de Nacimiento</label>
+      <input type="date" id="nacimientoContacto" name="nacimientoC"><br><br>
+
+      <label for="genero">Género: </label>
+      <input type="radio" id="masculino" name="genero" value="masculino">
+      <label for="masculino">Masculino</label>
+      <input type="radio" id="femenino" name="genero" value="femenino">
+      <label for="femenino">Femenino</label>
+      <input type="radio" id="otro" name="genero" value="otro">
+      <label for="otro">Otro</label><br><br>
+
+      <label for="password">Contraseña: </label>
+      <input type="password" id="password" name="pswd" size="30"><br><br>
+
+      <label for="areaComentarios">Comentarios: </label><br><br>
+      <textarea id="areaComentarios" name="comentario" rows="8" cols="80"></textarea><br><br>
+
+      <label for="masInformacion">Deseo recibir más información: </label>
+      <input type="checkbox" id="masInformacion" name="masInfo" value="quieroMasInformacion"><br><br>
+
+      <label for="promedioContacto">Promedio: </label>
+      <input type="number" id="promedioContacto" name="promedioC"><br><br><br><br>
+
+      <input type="submit" name="enviarDatos" value="Enviar datos">
+      <input type="reset" name="reset" value="Restaurar formulario">
+    </form>
+  </body>
+</html>

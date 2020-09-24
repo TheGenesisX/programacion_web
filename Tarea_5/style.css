@@ -1,0 +1,83 @@
+.general_style{
+  font-family: Century;
+  margin: 20px;
+  background-image: url(background.jpg);
+}
+
+.heading{
+  text-align:right;
+  font-style:italic;
+  font-family: "Century Gothic";
+}
+
+.title{
+  text-align: center;
+  font-style: italic;
+  font-family: "Times New Roman";
+}
+
+#licenciatura{
+  text-decoration: underline;
+  color: red;
+  font-family: Arial;
+}
+
+h1{
+  color: blue;
+  font-size: 40px;
+}
+
+p{
+  border-style: inset;
+  padding: 15px;
+  border-radius: 30px;
+  background: white;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+a, a:link{
+  text-decoration: none;
+  color: red;
+  background-color: pink;
+  padding: 4px 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 30px;
+}
+
+a:visited{
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover{
+  color: black;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+ul{
+  list-style-type: square;
+}
+
+table{
+  background-color: #ddeef0;
+  border-color: black;
+  border-radius: 10px;
+}
+
+th{
+  background-color: lightgray;
+  color: blue;
+  font-style: italic;
+}
+
+tr{
+  background-color: lightblue;
+}
+
+img{
+  float: right;
+}
